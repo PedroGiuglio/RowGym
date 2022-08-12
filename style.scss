@@ -1,0 +1,134 @@
+* {margin:0;padding:0;}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .appleWatch{
+        height: 8vh;
+        width: 100%;
+        background-color: #243746;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p{
+            text-transform: uppercase;
+            color: #FFCD00;
+            width:300px;
+            font-weight: bold;
+            span{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    nav{
+        ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        height: 8vh;
+        list-style: none;
+        img{
+            width: 100px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .btnOffer{
+            margin-left: 70px;
+            height: 8vh;
+            width: 150px;
+            background-color: #FFCD00;
+            border: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        .toggler{
+            width: 30px;
+            height: 50px;
+            margin-right:10px;
+        }
+    }
+    }
+
+
+
+    #imgHome{
+        width: 100%;
+        height: 50vh;
+        background-image: url(imagenes/pesa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -16px;
+        h1{
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            // width: 300px;
+            font-size: 36px;
+            // font-family;
+        }
+    }
+
+    .first__Info{
+        height: 70vh;
+        width: 100%;
+        background-image: url(imagenes/diagonales.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .btnFirst{
+            margin-top: -140px;
+            margin-bottom: 30px;
+            height: 8vh;
+            width: 150px;
+            background-color: #FFCD00;
+            border: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bolder;
+            width: 450px;
+        }
+        p{
+            width: 400px;
+            text-align: center;
+            color: black;
+        }
+        .btnTimers{
+            height: 8vh;
+            width: 150px;
+            background-color: #FFCD00;
+            border: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+    }
+}
