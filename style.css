@@ -16,7 +16,7 @@
   .appleWatch p {
     text-transform: uppercase;
     color: #FFCD00;
-    width: 300px;
+    width: 400px;
     font-weight: bold;
   }
   .appleWatch p span {
@@ -35,7 +35,7 @@
   }
   nav ul img {
     width: 100px;
-    height: 40px;
+    height: 30px;
     margin-left: 10px;
   }
   nav ul .btnOffer {
@@ -78,7 +78,7 @@
   .first__Info {
     height: 70vh;
     width: 100%;
-    background-image: url(imagenes/diagonales.jpg);
+    background-image: url(imagenes/patron1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,8 +90,8 @@
   .first__Info .btnFirst {
     margin-top: -140px;
     margin-bottom: 30px;
-    height: 8vh;
-    width: 150px;
+    height: 50px;
+    width: 170px;
     background-color: #FFCD00;
     border: none;
     text-transform: uppercase;
@@ -107,14 +107,20 @@
     font-weight: bolder;
     width: 450px;
   }
+  .first__Info .linea {
+    border-top: 7px solid #FFCD00;
+    height: 10px;
+    width: 100px;
+    margin-top: 10px;
+  }
   .first__Info p {
     width: 400px;
     text-align: center;
-    color: black;
+    color: #505055;
   }
   .first__Info .btnTimers {
-    height: 8vh;
-    width: 150px;
+    height: 50px;
+    width: 170px;
     background-color: #FFCD00;
     border: none;
     text-transform: uppercase;
@@ -123,5 +129,115 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 50px;
+  }
+  .carrusel {
+    height: 30vh;
+    width: 100%;
+    background-image: url(imagenes/carrusel1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #fitness {
+    height: auto;
+    width: 100%;
+    background-image: url(imagenes/patron1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #fitness h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 70px;
+  }
+  #fitness .smartWatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+  #fitness .smartWatch img {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 15px;
+  }
+  #fitness .smartWatch p {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #fitness .btnTimers {
+    height: 50px;
+    width: 170px;
+    background-color: #FFCD00;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .locations {
+    height: 70vh;
+    width: 100%;
+    background-image: url(imagenes/pesas2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .locations h3 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .locations p {
+    color: white;
+    width: 250px;
+    font-size: 18px;
+  }
+  .locations .btnTimers {
+    height: 50px;
+    width: 170px;
+    background-color: #FFCD00;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .locations .btnLocations {
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
