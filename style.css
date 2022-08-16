@@ -55,11 +55,6 @@
     height: 50px;
     margin-right: 40px;
   }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
   #imgHome {
     width: 100%;
     height: 50vh;
@@ -280,28 +275,44 @@
     margin-bottom: 30px;
     font-size: 18px;
   }
-  .sectionCards .card {
+  .sectionCards .boxCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
     width: 380px;
     height: 420px;
     border-radius: 0%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 20px;
+    background-color: white;
   }
-  .sectionCards .card img {
-    width: auto;
+  .sectionCards .boxCard img {
+    width: 380px;
     height: 250px;
   }
-  .sectionCards .card h5 {
+  .sectionCards .boxCard h5 {
     font-weight: bold;
     color: black;
     text-align: left;
     text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 15px;
   }
-  .sectionCards .card p {
-    margin-top: -30px;
+  .sectionCards .boxCard p {
     text-align: left;
+    margin-left: 15px;
     color: black;
     width: 300px;
     font-size: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .prueba {
+    width: 100%;
+    height: 100vh;
+    background-color: #243746;
   }
 }/*# sourceMappingURL=style.css.map */
