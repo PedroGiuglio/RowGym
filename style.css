@@ -4,44 +4,44 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .appleWatch {
+  header .appleWatch {
     height: 6vh;
-    width: 100%;
+    width: auto;
     background-color: #243746;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    overflow: hidden;
   }
-  .appleWatch p {
+  header .appleWatch p {
     text-transform: uppercase;
     color: #FFCD00;
     width: 100%;
     font-weight: bold;
     font-size: 12px;
   }
-  .appleWatch p span {
+  header .appleWatch p span {
     text-decoration: underline;
     font-size: 12px;
   }
-  #navbar ul {
+  header #navbar ul {
+    width: 100%;
+    height: 7vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 100%;
-    height: 7vh;
     list-style: none;
   }
-  #navbar ul img {
+  header #navbar ul img {
     width: 100px;
     height: 30px;
     margin-left: 10px;
   }
-  #navbar ul .btnOffer {
-    margin-left: 70px;
+  header #navbar ul .btnOffer {
     height: 7vh;
     width: 150px;
     background-color: #FFCD00;
@@ -52,10 +52,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
-  #navbar ul .toggler {
+  header #navbar ul .toggler {
     width: 30px;
     height: 50px;
-    margin-right: 40px;
+    margin-left: -50px;
+  }
+  header .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   #imgHome {
     width: 100%;
@@ -107,7 +112,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    width: 450px;
+    width: 350px;
   }
   .first__Info .linea {
     border-top: 7px solid #FFCD00;
@@ -262,7 +267,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    width: 450px;
+    width: 350px;
     margin-top: 50px;
   }
   .sectionCards .linea {
@@ -308,11 +313,6 @@
     color: black;
     width: 300px;
     font-size: 16px;
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
   }
   .prueba {
     width: 100%;
